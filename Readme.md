@@ -3,11 +3,11 @@
 We'll be covering the following topics:
 - Introduction to networking
 - Network communication protocols
- - TCP/IP protocol, DHCP and DNS
+  - TCP/IP protocol, DHCP and DNS
 - Network Topology
- - Star, Ring, Tree, Fully connected, etc.
+  - Star, Ring, Tree, Fully connected, etc.
 - Network Types
- - Personal Area Network (PAN), Local Area Network (LAN), Campus Area Network (CAN), etc.
+  - Personal Area Network (PAN), Local Area Network (LAN), Campus Area Network (CAN), etc.
 
 ### What is networking?
 
@@ -20,7 +20,7 @@ This concept extends from small local clusters of computers to the internet.
 ![image](https://user-images.githubusercontent.com/22747985/32137424-5e4311cc-bc17-11e7-8ac8-4d90b39cbbae.png)
 
 
-##### Method of communication - TCP/IP
+#### Method of communication - TCP/IP
 
 To function as a network, nodes need to utilise a common method of communication. The de facto standard specification for communication is `TCP/IP` (Transmission Control Protocol/Internet Protocol).
 

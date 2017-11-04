@@ -19,7 +19,7 @@ This concept extends from small local clusters of computers to the internet.
 
 ![image](https://user-images.githubusercontent.com/22747985/32137424-5e4311cc-bc17-11e7-8ac8-4d90b39cbbae.png)
 
-#### Method of communication - TCP/IP
+### Method of communication - TCP/IP
 
 To function as a network, nodes need to utilise a common method of communication. The de facto standard specification for communication is `TCP/IP` (Transmission Control Protocol/Internet Protocol).
 
@@ -71,7 +71,7 @@ Makes use of two main protocols:
 
 ![image](https://user-images.githubusercontent.com/22747985/32407698-ad4a21d0-c184-11e7-90ec-2a3c1f86ae1d.png)
 
-### User Datagram Protocol (UDP)
+### User Datagram Protocol (UDP)
 - Connectionless, unreliable service.
 - No handshaking protocol required.
 - No congestion control.
@@ -97,7 +97,7 @@ Makes use of two main protocols:
 - `Top level domain` (TLD), e.g. com, net, etc. and country indicators, e.g. uk, cn, au, etc. are administered by the `International Corporation for Assigned Names and Numbers` (ICANN)!
 - Followed by Second Level Domain (SLD), etc.
 
-_** DNS creates addresses that are comprehensible by humans.**_
+_**DNS creates addresses that are comprehensible by humans.**_
 
 #### Dynamic Host Configuration Protocol (DCHP)
 - This allows for automatic allocation of IP addresses.
@@ -120,17 +120,23 @@ Network topology refers to the arrangement of various elements (i.e. nodes, conn
 ## Star Layout
 
 The star network is one of the most popular network topologies. All peripheral nodes are connected only to a central hub (core node).
+
+![image](https://user-images.githubusercontent.com/22747985/32407875-17a6d1f2-c187-11e7-83d2-669cd856b608.png)
+
 - Advantages
   - Failure of one node does not affect the other nodes
   - Mobility of devices is flexible (i.e. a node can be added or removed without affecting the network)
 - Disadvantages
   - A hub failure would make the entire network collapse.
   - There's a high cost of building a star network
- ![image](https://user-images.githubusercontent.com/22747985/32407875-17a6d1f2-c187-11e7-83d2-669cd856b608.png)
+
 
 
 ## Ring Layout
-In the ring network, the nodes are connected only to the adjacent ones. ![image](https://user-images.githubusercontent.com/22747985/32408019-3e56a852-c189-11e7-9405-aae7ca0b922f.png)
+In the ring network, the nodes are connected only to the adjacent ones. 
+
+![image](https://user-images.githubusercontent.com/22747985/32408019-3e56a852-c189-11e7-9405-aae7ca0b922f.png)
+
 - Advantages
   - No central hub or core node needed, therefore the workload and services are handled from all the nodes.
   - Unidirectional connection of the layout facilitates the identification and isolation of failures and errors.
@@ -139,7 +145,10 @@ In the ring network, the nodes are connected only to the adjacent ones. ![image]
   - Mobility of devices isn't flexible (i.e. you cannot add or remove a node without affecting the functionality of the network).
 
 ## Tree Layout
-The tree network arranges the network nodes in a hierarchical way, where there is a parent-child relation between the nodes. ![image](https://user-images.githubusercontent.com/22747985/32408021-41a0562a-c189-11e7-90e6-360f1ec0cd56.png)
+The tree network arranges the network nodes in a hierarchical way, where there is a parent-child relation between the nodes. 
+
+![image](https://user-images.githubusercontent.com/22747985/32408021-41a0562a-c189-11e7-90e6-360f1ec0cd56.png)
+
 - Advantages
   - It's scalable as leaf nodes can accommodate more nodes in the hierarchical chain.
   - Other hierarchical networks are not affected if one of them gets damaged.
@@ -149,7 +158,9 @@ The tree network arranges the network nodes in a hierarchical way, where there i
   - It's expensive to build as huge cabling is required.
 
 ## Fully Connected Layout
-In a fully-connected network, any two nodes of the network can bi-directionally communicate, as they are directly connected to each other. ![image](https://user-images.githubusercontent.com/22747985/32408050-ad6e1fea-c189-11e7-98dc-2f0a81ca1cf5.png)
+In a fully-connected network, any two nodes of the network can bi-directionally communicate, as they are directly connected to each other. 
+
+![image](https://user-images.githubusercontent.com/22747985/32408050-ad6e1fea-c189-11e7-98dc-2f0a81ca1cf5.png)
 
 - Advantages
   - Data can be transmitted from different devices concurrently. This topology can handle high traffic.
